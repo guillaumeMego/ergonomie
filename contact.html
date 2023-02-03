@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Page de contact</title>
+</head>
+<body>
+    <header>
+        <div class="entete">
+        <h1>Concepteur Developpeur d'Application (CDA)</h1>
+        <img src="./assets/logo-afpa-hd-190x190.jpg" alt="">
+        </div>
+        <nav>
+            <menu class="listes">
+                <li class="liste"><a href="./index.html">Accueil</a></li>
+                <li class="liste"><a href="#">Trombinoscope</a></li>
+                <li class="liste"><a href="./contact.html">Contact</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <h3>Veuillez remplir le formulaire :</h3>
+            <fieldset class="nom">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" placeholder="Nom">
+            </fieldset>
+            <fieldset class="prenom">  
+                 <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" placeholder="Prénom">
+            </fieldset>
+            <fieldset class="mail">
+                <label for="mail">Adresse mail :</label>
+                <input type="email" id="mail" placeholder="nom@domain.tld">
+            </fieldset>
+            <fieldset class="tel">
+                <label for="tel">Téléphone :</label>
+                <input type="tel" id="tel" placeholder="0123456789">
+            </fieldset>
+            <fieldset class="area">
+                <label for="textarea">Votre message</label>
+                <textarea id="textarea" cols="30" rows="10" placeholder="Votre message"></textarea>
+            </fieldset>
+            <fieldset class="submit">
+                <input type="submit" id="submit" value="Envoyer les infos">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+          <p>
+            &copy;Guillaume Ganne
+          </p>
+        </div>
+      </footer>
+</body>
+</html>

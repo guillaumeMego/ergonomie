@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #85BC24;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: auto;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: white;
+    color: #1F8A70;
+    transition: 0.5s;
+}
+
+.entete {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.entete img {
+    height: 80px;
+}
+
+nav {
+    padding: 20px;
+    background-color: #1F8A70;
+
+}
+
+nav menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+menu a {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.descriptif {
+    margin: 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+figure {
+    margin: 10px;
+}
+
+figure img {
+    height: 450px;
+}
+
+article {
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #1F8A70;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.flex {
+
+    margin: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+
+
+}
+
+section {
+    width: 30%;
+    margin: 20px 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    min-width: 300px;
+}
+
+section ul {
+    margin: 5px 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #227b65;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+    color: #777;
+}
+
+.danger {
+    color: #c00;
+}
+
+.danger::before,
+.danger::after {
+    content: "\f071";
+    padding-right: 2px;
+    padding-left: 2px;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+.info {
+    color: #85bc23;
+}
+
+.info::before {
+    /* add icon */
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f129";
+    display: inline-block;
+    padding-right: 5px;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #227b65;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+form {
+    margin: 100px auto;
+    width: 600px;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #227b65;
+}
+
+form h3 {
+    text-align: center;
+    margin: 10px 0 50px 0;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+label {
+    width: 200px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 30px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.46);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+}
